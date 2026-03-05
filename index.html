@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="index.css">
+
+  <title>Portfolio</title>
+
+    <meta name="title" content="My Personal Web-Page">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Hannah</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:john@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Hannah 👋</h2>
+        <p>Hi, I am Hannah Dumapi I am passionate about programming and enjoy building websites using HTML and CSS . I like turning ideas into interactive and responsive designs, and I’m always excited to see my code come to life. Programming helps me improve my problem-solving skills and think more logically. I am continuously learning and exploring new technologies to grow and become better in web development.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>  
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="headshot.jpg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I have skills in HTML and CSS, and I enjoy creating clean and responsive website designs. I’m still learning and improving, but I’m confident in building structured web pages and styling them to look creative and organized.
+
+      <div class="cells">
+        <div class="cell">
+          <img src="html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img class="test-head"src="cat pfp.webp">
+          <p>Pusa Cat</p>
+          <p>Client</p>
+        </div>
+
+        <div class="text">
+        "I highly recommend Hannah for her recent project. She showed great creativity and dedication throughout the entire process. Even though she’s still learning, his skills in HTML and CSS are impressive. The design was clean, responsive, and well-structured, showing that he understands the fundamentals of web development. He pays attention to details and is always willing to improve and learn new things. If you’re looking for someone passionate and hardworking in web design, Hanna is definitely a great choice."
+        </div>
+      </div>
+
+         <div class="group">
+        <div class="person-details">
+          <img class="test-head" src="Cute bee kitty close up.jpg">
+          <p>Tom</p>
+          <p>Client</p>
+        </div>
+
+        <div class="text">
+        "Working with Hannah was a great experience. She helped bring our website idea to life using clean and well-structured HTML and CSS. The design was simple, responsive, and easy for visitors to navigate. Throughout the project, she was patient, open to feedback, and always willing to improve the details of the website. Even while still learning, Hannah showed strong dedication and creativity in building the site. she made sure the layout looked good on different screen sizes and focused on making the page visually appealing and organized."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+         If you’re interested in collaborating or have a project in mind, don’t hesitate to reach out. I’m always open to new ideas, opportunities, and challenges that help me grow as a developer.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
